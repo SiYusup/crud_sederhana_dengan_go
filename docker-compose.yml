@@ -5,8 +5,8 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: crud_go
-      MYSQL_USER: user_go
+      MYSQL_DATABASE: crud_employee
+      MYSQL_USER: root
       MYSQL_PASSWORD: password_go
     ports:
       - "3307:3306"
